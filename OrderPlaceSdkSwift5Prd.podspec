@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name = "OrderPlaceSdkSwift5Prd"
-s.version = "0.1.3"
+s.version = "0.1.4"
 s.summary = "Order Place Sdk swift5 Prd"
 
 s.description = <<-DESC
@@ -15,8 +15,8 @@ s.author = { "风筝" => "13286953452@126.com" }
 
 s.source = { :git => "https://github.com/AigensTechnology/OrderPlaceSdkSwift5Prd.git", :tag => "#{s.version}" }
 
-s.ios.deployment_target = "8.0"
-s.swift_version = '4.0'
+s.ios.deployment_target = "9.0"
+s.swift_version = '5.0'
 s.static_framework = true
 
 s.frameworks = 'AVFoundation', 'WebKit', 'UIKit', 'Foundation', 'PassKit', 'AddressBook'
